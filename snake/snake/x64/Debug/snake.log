@@ -1,0 +1,11 @@
+﻿snake.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) public: __cdecl QMediaPlayer::QMediaPlayer(class QObject *,class QFlags<enum QMediaPlayer::Flag>)" (__imp_??0QMediaPlayer@@QEAA@PEAVQObject@@V?$QFlags@W4Flag@QMediaPlayer@@@@@Z) в функции "public: __cdecl Snake::Snake(class QWidget *)" (??0Snake@@QEAA@PEAVQWidget@@@Z).
+snake.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) public: virtual __cdecl QMediaPlayer::~QMediaPlayer(void)" (__imp_??1QMediaPlayer@@UEAA@XZ) в функции "public: virtual void * __cdecl QMediaPlayer::`scalar deleting destructor'(unsigned int)" (??_GQMediaPlayer@@UEAAPEAXI@Z).
+snake.obj : error LNK2001: неразрешенный внешний символ "public: virtual enum QMultimedia::AvailabilityStatus __cdecl QMediaPlayer::availability(void)const " (?availability@QMediaPlayer@@UEBA?AW4AvailabilityStatus@QMultimedia@@XZ).
+snake.obj : error LNK2001: неразрешенный внешний символ "public: virtual bool __cdecl QMediaPlayer::bind(class QObject *)" (?bind@QMediaPlayer@@UEAA_NPEAVQObject@@@Z).
+snake.obj : error LNK2001: неразрешенный внешний символ "public: virtual bool __cdecl QMediaObject::isAvailable(void)const " (?isAvailable@QMediaObject@@UEBA_NXZ).
+snake.obj : error LNK2001: неразрешенный внешний символ "public: virtual struct QMetaObject const * __cdecl QMediaPlayer::metaObject(void)const " (?metaObject@QMediaPlayer@@UEBAPEBUQMetaObject@@XZ).
+snake.obj : error LNK2001: неразрешенный внешний символ "public: virtual int __cdecl QMediaPlayer::qt_metacall(enum QMetaObject::Call,int,void * *)" (?qt_metacall@QMediaPlayer@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z).
+snake.obj : error LNK2001: неразрешенный внешний символ "public: virtual void * __cdecl QMediaPlayer::qt_metacast(char const *)" (?qt_metacast@QMediaPlayer@@UEAAPEAXPEBD@Z).
+snake.obj : error LNK2001: неразрешенный внешний символ "public: virtual class QMediaService * __cdecl QMediaObject::service(void)const " (?service@QMediaObject@@UEBAPEAVQMediaService@@XZ).
+snake.obj : error LNK2001: неразрешенный внешний символ "public: virtual void __cdecl QMediaPlayer::unbind(class QObject *)" (?unbind@QMediaPlayer@@UEAAXPEAVQObject@@@Z).
+D:\ПАША\C++ projects\QT\snake\x64\Debug\snake.exe : fatal error LNK1120: неразрешенных внешних элементов: 10
