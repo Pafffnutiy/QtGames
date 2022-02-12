@@ -1,0 +1,35 @@
+﻿  moc mainwindow.h
+  main.cpp
+  mainwindow.cpp
+  moc_mainwindow.cpp
+breakout.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) public: __cdecl QMediaContent::QMediaContent(class QUrl const &)" (__imp_??0QMediaContent@@QEAA@AEBVQUrl@@@Z) в функции "protected: void __cdecl Breakout::finishGame(class QPainter *,class QString)" (?finishGame@Breakout@@IEAAXPEAVQPainter@@VQString@@@Z).
+mainwindow.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: __cdecl QMediaContent::QMediaContent(class QUrl const &)" (__imp_??0QMediaContent@@QEAA@AEBVQUrl@@@Z).
+breakout.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) public: __cdecl QMediaContent::~QMediaContent(void)" (__imp_??1QMediaContent@@QEAA@XZ) в функции "protected: void __cdecl Breakout::finishGame(class QPainter *,class QString)" (?finishGame@Breakout@@IEAAXPEAVQPainter@@VQString@@@Z).
+mainwindow.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: __cdecl QMediaContent::~QMediaContent(void)" (__imp_??1QMediaContent@@QEAA@XZ).
+breakout.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) public: __cdecl QMediaPlayer::QMediaPlayer(class QObject *,class QFlags<enum QMediaPlayer::Flag>)" (__imp_??0QMediaPlayer@@QEAA@PEAVQObject@@V?$QFlags@W4Flag@QMediaPlayer@@@@@Z) в функции "protected: void __cdecl Breakout::finishGame(class QPainter *,class QString)" (?finishGame@Breakout@@IEAAXPEAVQPainter@@VQString@@@Z).
+mainwindow.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: __cdecl QMediaPlayer::QMediaPlayer(class QObject *,class QFlags<enum QMediaPlayer::Flag>)" (__imp_??0QMediaPlayer@@QEAA@PEAVQObject@@V?$QFlags@W4Flag@QMediaPlayer@@@@@Z).
+breakout.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) public: virtual __cdecl QMediaPlayer::~QMediaPlayer(void)" (__imp_??1QMediaPlayer@@UEAA@XZ) в функции "public: virtual void * __cdecl QMediaPlayer::`scalar deleting destructor'(unsigned int)" (??_GQMediaPlayer@@UEAAPEAXI@Z).
+mainwindow.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: virtual __cdecl QMediaPlayer::~QMediaPlayer(void)" (__imp_??1QMediaPlayer@@UEAA@XZ).
+breakout.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) public: void __cdecl QMediaPlayer::play(void)" (__imp_?play@QMediaPlayer@@QEAAXXZ) в функции "protected: void __cdecl Breakout::finishGame(class QPainter *,class QString)" (?finishGame@Breakout@@IEAAXPEAVQPainter@@VQString@@@Z).
+mainwindow.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: void __cdecl QMediaPlayer::play(void)" (__imp_?play@QMediaPlayer@@QEAAXXZ).
+breakout.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) public: void __cdecl QMediaPlayer::setVolume(int)" (__imp_?setVolume@QMediaPlayer@@QEAAXH@Z) в функции "protected: void __cdecl Breakout::finishGame(class QPainter *,class QString)" (?finishGame@Breakout@@IEAAXPEAVQPainter@@VQString@@@Z).
+mainwindow.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: void __cdecl QMediaPlayer::setVolume(int)" (__imp_?setVolume@QMediaPlayer@@QEAAXH@Z).
+breakout.obj : error LNK2019: ссылка на неразрешенный внешний символ "__declspec(dllimport) public: void __cdecl QMediaPlayer::setMedia(class QMediaContent const &,class QIODevice *)" (__imp_?setMedia@QMediaPlayer@@QEAAXAEBVQMediaContent@@PEAVQIODevice@@@Z) в функции "protected: void __cdecl Breakout::finishGame(class QPainter *,class QString)" (?finishGame@Breakout@@IEAAXPEAVQPainter@@VQString@@@Z).
+mainwindow.obj : error LNK2001: неразрешенный внешний символ "__declspec(dllimport) public: void __cdecl QMediaPlayer::setMedia(class QMediaContent const &,class QIODevice *)" (__imp_?setMedia@QMediaPlayer@@QEAAXAEBVQMediaContent@@PEAVQIODevice@@@Z).
+breakout.obj : error LNK2001: неразрешенный внешний символ "public: virtual enum QMultimedia::AvailabilityStatus __cdecl QMediaPlayer::availability(void)const " (?availability@QMediaPlayer@@UEBA?AW4AvailabilityStatus@QMultimedia@@XZ).
+mainwindow.obj : error LNK2001: неразрешенный внешний символ "public: virtual enum QMultimedia::AvailabilityStatus __cdecl QMediaPlayer::availability(void)const " (?availability@QMediaPlayer@@UEBA?AW4AvailabilityStatus@QMultimedia@@XZ).
+breakout.obj : error LNK2001: неразрешенный внешний символ "public: virtual bool __cdecl QMediaPlayer::bind(class QObject *)" (?bind@QMediaPlayer@@UEAA_NPEAVQObject@@@Z).
+mainwindow.obj : error LNK2001: неразрешенный внешний символ "public: virtual bool __cdecl QMediaPlayer::bind(class QObject *)" (?bind@QMediaPlayer@@UEAA_NPEAVQObject@@@Z).
+breakout.obj : error LNK2001: неразрешенный внешний символ "public: virtual bool __cdecl QMediaObject::isAvailable(void)const " (?isAvailable@QMediaObject@@UEBA_NXZ).
+mainwindow.obj : error LNK2001: неразрешенный внешний символ "public: virtual bool __cdecl QMediaObject::isAvailable(void)const " (?isAvailable@QMediaObject@@UEBA_NXZ).
+breakout.obj : error LNK2001: неразрешенный внешний символ "public: virtual struct QMetaObject const * __cdecl QMediaPlayer::metaObject(void)const " (?metaObject@QMediaPlayer@@UEBAPEBUQMetaObject@@XZ).
+mainwindow.obj : error LNK2001: неразрешенный внешний символ "public: virtual struct QMetaObject const * __cdecl QMediaPlayer::metaObject(void)const " (?metaObject@QMediaPlayer@@UEBAPEBUQMetaObject@@XZ).
+breakout.obj : error LNK2001: неразрешенный внешний символ "public: virtual int __cdecl QMediaPlayer::qt_metacall(enum QMetaObject::Call,int,void * *)" (?qt_metacall@QMediaPlayer@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z).
+mainwindow.obj : error LNK2001: неразрешенный внешний символ "public: virtual int __cdecl QMediaPlayer::qt_metacall(enum QMetaObject::Call,int,void * *)" (?qt_metacall@QMediaPlayer@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z).
+breakout.obj : error LNK2001: неразрешенный внешний символ "public: virtual void * __cdecl QMediaPlayer::qt_metacast(char const *)" (?qt_metacast@QMediaPlayer@@UEAAPEAXPEBD@Z).
+mainwindow.obj : error LNK2001: неразрешенный внешний символ "public: virtual void * __cdecl QMediaPlayer::qt_metacast(char const *)" (?qt_metacast@QMediaPlayer@@UEAAPEAXPEBD@Z).
+breakout.obj : error LNK2001: неразрешенный внешний символ "public: virtual class QMediaService * __cdecl QMediaObject::service(void)const " (?service@QMediaObject@@UEBAPEAVQMediaService@@XZ).
+mainwindow.obj : error LNK2001: неразрешенный внешний символ "public: virtual class QMediaService * __cdecl QMediaObject::service(void)const " (?service@QMediaObject@@UEBAPEAVQMediaService@@XZ).
+breakout.obj : error LNK2001: неразрешенный внешний символ "public: virtual void __cdecl QMediaPlayer::unbind(class QObject *)" (?unbind@QMediaPlayer@@UEAAXPEAVQObject@@@Z).
+mainwindow.obj : error LNK2001: неразрешенный внешний символ "public: virtual void __cdecl QMediaPlayer::unbind(class QObject *)" (?unbind@QMediaPlayer@@UEAAXPEAVQObject@@@Z).
+D:\ПАША\C++ projects\QT\Hockey3\x64\Debug\Hockey3.exe : fatal error LNK1120: неразрешенных внешних элементов: 15

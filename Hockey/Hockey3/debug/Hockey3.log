@@ -1,0 +1,12 @@
+﻿  Generate moc_predefs.h
+  MOC mainwindow.h
+CUSTOMBUILD : warning : Failed to resolve include "D:/????/C++ projects/QT/Hockey3/Hockey3/debug/moc_predefs.h" for moc file mainwindow.h
+  ball.cpp
+  breakout.cpp
+  main.cpp
+  mainwindow.cpp
+  paddle1.cpp
+  paddle2.cpp
+  moc_mainwindow.cpp
+  Создание кода...
+  Hockey3.vcxproj -> D:\ПАША\C++ projects\QT\Hockey3\Hockey3\debug\Hockey3.exe
